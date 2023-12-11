@@ -1,7 +1,13 @@
-package main 
+package main
 
 func main() {
-	HelloWorld()
-	Values()
-	Variables()
+	// helloWorld()
+	// values()
+	// variables()
+	// constants()
+	// forConstruct()
+	// ifElse()
+	// switchConstruct()
+	arrays()
+
 }
