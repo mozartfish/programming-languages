@@ -1,9 +1,3 @@
-Typescript commands to run with a config file 
-tsc --watch -> run the typescript compiler 
-node --watch dist/index.js 
-
-
-
 Golang 
 - package: named collection of one or more related .go files.
 primary purpose of pacakges is to help isolate and reuse code 
