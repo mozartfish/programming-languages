@@ -13,6 +13,7 @@ func main() {
 	// mapConstruct()
 	// rangeConstruct()
 	// functions()
-	multipleReturnValues()
+	// multipleReturnValues()
+	variadicFunctions()
 
 }
