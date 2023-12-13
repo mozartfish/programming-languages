@@ -8,6 +8,11 @@ func main() {
 	// forConstruct()
 	// ifElse()
 	// switchConstruct()
-	arrays()
+	// arrays()
+	// slicesConstruct()
+	// mapConstruct()
+	// rangeConstruct()
+	// functions()
+	multipleReturnValues()
 
 }
