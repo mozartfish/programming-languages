@@ -6,4 +6,9 @@ func main() {
 	variables()
 	constants()
 	forConstruct()
+	ifElseConstruct()
+	switchConstruct()
+	arrayConstruct()
+	slicesConstruct()
+	mapConstruct()
 }
