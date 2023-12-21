@@ -12,4 +12,8 @@ func main() {
 	slicesConstruct()
 	mapConstruct()
 	rangeConstruct()
+	functionConstruct()
+	multipleReturnValues()
+	variadicFunctions()
+	closures()
 }
