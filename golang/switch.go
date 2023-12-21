@@ -7,6 +7,7 @@ import (
 
 func switchConstruct() {
 
+	// classic switch statement
 	i := 2
 	fmt.Println("Write ", i, " as ")
 	switch i {
@@ -18,6 +19,8 @@ func switchConstruct() {
 		fmt.Println("three")
 	}
 
+	// switch on multiple expressions in the same case statement
+	// includes default case
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
 		fmt.Println("It's the weekend")
@@ -25,6 +28,8 @@ func switchConstruct() {
 		fmt.Println("It's a weekday")
 	}
 
+	// switch without an expression is an alternative
+	// to expressing if-else logic
 	t := time.Now()
 	switch {
 	case t.Hour() < 12:
@@ -33,6 +38,7 @@ func switchConstruct() {
 		fmt.Println("It's after noon")
 	}
 
+	// type switch comparing types instead of values 
 	whatAmI := func(i interface{}) {
 		switch t := i.(type) {
 		case bool:

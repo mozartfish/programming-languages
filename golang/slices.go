@@ -8,11 +8,13 @@ import (
 func slicesConstruct() {
 
 	// uninitialized slice
+	// always nil and has length of zero
 	var s []string
 	fmt.Println("uninit:", s, s == nil, len(s) == 0)
 
 	// empty slice with non-zero length
-	// cap = length by default
+	// cap(capcity) = length by default
+	// can pass a capacity to make if we know the capacity ahead of time
 	s = make([]string, 3)
 	fmt.Println("emp:", s, "len:", len(s), "cap:", cap(s))
 
@@ -24,14 +26,21 @@ func slicesConstruct() {
 
 	fmt.Println("len:", len(s))
 
+	// append operation
+	// slice needs to accept a return value from append
+	// as we may get a new slice value
 	s = append(s, "d")
 	s = append(s, "e", "f")
 	fmt.Println("apd:", s)
 
+	// copy a slice (this is a deep copy)
 	c := make([]string, len(s))
 	copy(c, s)
 	fmt.Println("cpy:", s)
 
+	// this a slice of a slice
+	// it is a shallow copy - modifying s will modify l
+	// to avoid this, use the copy function for a deep copy
 	l := s[2:5]
 	fmt.Println("sl1:", l)
 

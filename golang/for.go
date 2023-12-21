@@ -23,6 +23,7 @@ func forConstruct() {
 		break
 	}
 
+	// continue statement in a for loop
 	for n := 0; n <= 5; n++ {
 		if n%2 == 0 {
 			continue

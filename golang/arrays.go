@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func arrayConstruct() {
+
+	// empty array that will hold exactly 5 ints
+	// by default an array is initialized as zero-valued
 	var a [5]int
 	fmt.Println("emp:", a)
 
