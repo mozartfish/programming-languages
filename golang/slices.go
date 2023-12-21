@@ -5,6 +5,8 @@ import (
 	"slices"
 )
 
+// data type in go similar to python list and array list in other
+// programming languages. More common than arrays
 func slicesConstruct() {
 
 	// uninitialized slice

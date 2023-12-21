@@ -5,6 +5,7 @@ import (
 	"maps"
 )
 
+// maps are go's built in associate data type (hashes or dicts in other languages)
 func mapConstruct() {
 
 	// empty map
@@ -48,5 +49,4 @@ func mapConstruct() {
 	if maps.Equal(n, n2) {
 		fmt.Println("n == n2")
 	}
-
 }

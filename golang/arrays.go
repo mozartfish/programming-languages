@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// arrays are a number sequence of elements of a specific length
+// less common that slices but are useful in some specific situations
 func arrayConstruct() {
 
 	// empty array that will hold exactly 5 ints

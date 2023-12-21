@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// switch statements express conditionals across many branches
 func switchConstruct() {
 
 	// classic switch statement
@@ -38,7 +39,7 @@ func switchConstruct() {
 		fmt.Println("It's after noon")
 	}
 
-	// type switch comparing types instead of values 
+	// type switch comparing types instead of values
 	whatAmI := func(i interface{}) {
 		switch t := i.(type) {
 		case bool:
