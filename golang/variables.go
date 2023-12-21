@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// variables are explicity declared and used by the compiler to check type-correctness
+// of function calls
 func variables() {
 
 	// declare 1 or more variables

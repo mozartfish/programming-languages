@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// go's only looping construct
 func forConstruct() {
 
 	// while loop

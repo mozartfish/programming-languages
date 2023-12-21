@@ -8,6 +8,7 @@ import (
 // declare a constant value
 const s string = "constant"
 
+// constants in golang 
 func constants() {
 	fmt.Println(s)
 
