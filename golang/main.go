@@ -16,4 +16,9 @@ func main() {
 	multipleReturnValues()
 	variadicFunctions()
 	closures()
+	recursion()
+	pointers()
+	stringsRunes()
+	structs()
+	methods()
 }
