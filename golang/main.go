@@ -21,4 +21,9 @@ func main() {
 	stringsRunes()
 	structs()
 	methods()
+	interfaces()
+	structEmbeddings()
+	generics()
+	errorConstruct()
+	goroutines()
 }
