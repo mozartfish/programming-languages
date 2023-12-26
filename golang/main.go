@@ -26,4 +26,10 @@ func main() {
 	generics()
 	errorConstruct()
 	goroutines()
+	channels()
+	channelBuffering()
+	channelSynchronization()
+	channelDirections()
+	selectConstruct()
+	timeOuts()
 }
