@@ -1,7 +1,9 @@
 package main
 
+// run all files without having to type names - go run .
+// build executable with module name - go build .
 func main() {
-	helloWorld()
+	hello()
 	values()
 	variables()
 	constants()
@@ -9,27 +11,7 @@ func main() {
 	ifElseConstruct()
 	switchConstruct()
 	arrayConstruct()
-	slicesConstruct()
+	sliceConstruct()
 	mapConstruct()
 	rangeConstruct()
-	functionConstruct()
-	multipleReturnValues()
-	variadicFunctions()
-	closures()
-	recursion()
-	pointers()
-	stringsRunes()
-	structs()
-	methods()
-	interfaces()
-	structEmbeddings()
-	generics()
-	errorConstruct()
-	goroutines()
-	channels()
-	channelBuffering()
-	channelSynchronization()
-	channelDirections()
-	selectConstruct()
-	timeOuts()
 }

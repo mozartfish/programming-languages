@@ -5,24 +5,27 @@ import (
 	"math"
 )
 
-// declare a constant value
+// Go supports constants of character, string, boolean and numeric values
+
+// const declares a constant value
 const s string = "constant"
 
-// constants in golang 
 func constants() {
+	
+	fmt.Println("CONSTANTS")
 	fmt.Println(s)
 
-	// constants can appear anywhere a var statement can
+	// - a const statement can appear anywhere a var statement can
 	const n = 500000000
 
-	// constant expressions perform arithmetic with arbitrary position
+	// - constant expressions perform arithmetic with arbitrary precision
 	const d = 3e20 / n
 	fmt.Println(d)
 
-	// numeric constant has no type until it's given one such as by an explicit conversion
+	// - a numeric constant has no type until it's given one, such as by an explicit conversion
 	fmt.Println(int64(d))
 
-	// a number can be given a type by using it in a context
-	// that requires one, such as a variable assignment or function call
+	// - a number can be given a type by using it in a context that requires one such as a variable
+	// assignment or function cal.
 	fmt.Println(math.Sin(n))
 }
