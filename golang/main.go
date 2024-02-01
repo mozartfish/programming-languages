@@ -19,4 +19,8 @@ func main() {
 	variadicFunctions()
 	closure()
 	recursion() 
+	pointers()
+	stringsRunes()
+	structConstruct()
+	methods() 
 }

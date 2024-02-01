@@ -13,6 +13,7 @@ func fact(n int) int {
 
 // Go supports recursive functions
 func recursion() {
+
 	fmt.Println("RECURSION")
 	fmt.Println(fact(7))
 
