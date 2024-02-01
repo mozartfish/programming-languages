@@ -14,4 +14,9 @@ func main() {
 	sliceConstruct()
 	mapConstruct()
 	rangeConstruct()
+	functions()
+	multiReturn()
+	variadicFunctions()
+	closure()
+	recursion() 
 }
