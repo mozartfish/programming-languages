@@ -1,5 +1,7 @@
 Golang 
-- package: named collection of one or more related .go files.
-primary purpose of pacakges is to help isolate and reuse code 
-- main is a special package which indicates that the package contains
-code for executable application 
+- package: Go keyword that defines which code bundle file belongs to.
+Can only be one package per folder, and each .go file has to declare the 
+same package name at the top of its file. 
+- import: Go keyword that tells Go compiler which other packages to use in the file. 
+- Go applications require a main package and exactly one main() function 
+in the main package 
