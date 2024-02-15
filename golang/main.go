@@ -31,4 +31,8 @@ func main() {
 	channels()
 	channelBuffering()
 	channelSynchronization()
+	channelDirections()
+	selectConstruct()
+	timeOut()
+	nonBlockingConstruct()
 }

@@ -15,7 +15,7 @@ func worker(done chan bool) {
 	done <- true
 }
 
-// We can use channels to synchornize execution across goroutines
+// We can use channels to synchronize execution across goroutines
 // When waiting for multiple goroutines to finish, use a waitGroup
 // - this program uses a blocking receive to wait for a goroutine to finish
 func channelSynchronization() {
@@ -26,6 +26,6 @@ func channelSynchronization() {
 	// - start a worker goroutine giving it the channel to notify on
 	go worker(done)
 
-	// - block until we receive a notification form the worker on the channel
+	// - block until we receive a notification from the worker on the channel
 	<-done
 }
