@@ -1,3 +1,3 @@
-module gobyexample
+module goTutorial
 
 go 1.21.6
