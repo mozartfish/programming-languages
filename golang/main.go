@@ -10,4 +10,7 @@ func main() {
 	forConstruct()
 	ifElseConstruct()
 	switchConstruct()
+	arrays()
+	sliceConstruct()
+	mapConstruct()
 }

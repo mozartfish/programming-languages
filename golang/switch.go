@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// Switch statements express conditionals across many branches
 func switchConstruct() {
 	fmt.Println("SWITCH")
 
