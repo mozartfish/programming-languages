@@ -13,4 +13,7 @@ func main() {
 	arrays()
 	sliceConstruct()
 	mapConstruct()
+	rangeConstruct()
+	functionConstruct()
+	multipleReturnValues()
 }
